@@ -8,7 +8,7 @@ export default function Header({ userData, onSignOut }) {
   return (
     <header className="fixed top-0 w-full left-0 flex justify-center  py-4 border-b border-gray-200 bg-white px-4">
       <div className="max-w-3xl w-full flex items-center justify-between  px-4">
-        <h3>Forum Diskusi</h3>
+        <h3>Forum Diskusi v.1</h3>
         { userData ? (
           <div className="text-xl flex justify-end items-center">
             <img src={userData.avatar} alt="avatar" className="w-8 h-8 rounded-full" />
